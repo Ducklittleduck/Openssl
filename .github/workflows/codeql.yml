@@ -53,7 +53,7 @@ jobs:
     # 在初始化 CodeQL 之前，运行配置脚本
     - name: Run Configure Script
       run: |
-        cd /openssl-master
+        cd openssl-master
         chmod +x ./Configure  # 确保 configure 脚本具有可执行权限
         ./Configure           # 运行 configure 脚本来配置构建环境
 
